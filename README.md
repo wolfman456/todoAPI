@@ -3,6 +3,7 @@
 ## Summary :
 I chose to do a simple todo app in an effort to learn to right an API in python instead of Java.
 I started by reading the documentation for flask and tutorials I was able to locate online. I then decided to use a docker container as it would allow me to use any database I wanted.This resulted in me having to research the docker file for python and postgres. To keep things simple with the first app I decided to only use one python file and one table. This has given me a reference point to build from for future APIs and allowed me to start building correlation to Java and Spring-boot.  
+
 ## User Stories :
 
 1. As a user I want to be able to create a task and give it a name.
@@ -27,12 +28,14 @@ I started by reading the documentation for flask and tutorials I was able to loc
 
 ## Json Object :
 
-  [{
+[
+    {
         "complete": false,
         "description": "stuff",
         "id": 1,
         "title": "title1"
-  }]
+    }
+]
 
 ## Things learned :
 
