@@ -48,3 +48,8 @@ I started by reading the documentation for flask and tutorials I was able to loc
 | Docker          | To run system in a container |
 
 
+## Future Plans
+1. Use multiple fies to separate model and functions
+2. Add a user to connect to different task lists
+3. add date time when create and when completed
+
