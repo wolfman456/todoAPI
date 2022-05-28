@@ -14,7 +14,7 @@ db = SQLAlchemy(app)
 class Task(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     title = db.Column(db.String(80), unique=True, nullable=False)
-    description = db.Column(db.String(120), unique=True, nullable=False)
+    description = db.Column(db.String(250), unique=True, nullable=False)
     complete = db.Column(db.Boolean, nullable=False)
 
     def __init__(self, title, description, complete):
